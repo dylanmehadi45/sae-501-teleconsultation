@@ -1,0 +1,25 @@
+# --- Secrets & certificats : NE JAMAIS versionner ---
+*.key
+*.crt
+*.pem
+*.csr
+certs/
+secrets/
+config_local.*
+.env
+*wifi*secret*
+
+# --- Machines virtuelles (trop lourdes pour Git) ---
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv*/
+.venv/
+
+# --- Divers ---
+.DS_Store
